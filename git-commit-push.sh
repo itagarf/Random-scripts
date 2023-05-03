@@ -1,7 +1,10 @@
 #!/bin/bash
 
+
 green=`tput setaf 2`
 reset=`tput sgr0`
+
+git config user.name
 
 echo "Enter your message"
 read message
