@@ -17,6 +17,6 @@ git commit -m"${message}"
  git status
  echo "${green}Pushing to server...${reset}"
  git push
- echo "{green}Pushed!!!${reset}"
+ echo "${green}Pushed!!!${reset} 👍🏾"
 #fi
 
