@@ -13,7 +13,7 @@ then
 else
  git status
  echo "${green}Pushing to server...${reset}"
- git push
+ git push -u origin main
  echo "{green}Pushed!!!${reset}"
 fi
 
